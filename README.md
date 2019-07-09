@@ -6,8 +6,8 @@
 The minimal supported clock frequency of the original STK500v2 programmer was about 51.1 Hz,
 but some (most...) clones support only approx. 15 kHz and above.
 
-As of the microcontroller, the programming frequency must be at least 4 times the
-oscillator freq of the chip, so this 15 kHz programming freq is adequate only
+As of the microcontroller, the oscillator freq of the chip must be at least 4 times the
+programming frequency, so this 15 kHz programming freq is adequate only
 for chip frequencies above 60 kHz.
 
 On the other hand, if you managed to configure the internal 128 kHz oscillator
